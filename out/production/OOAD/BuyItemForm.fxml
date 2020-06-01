@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="360.0" prefWidth="577.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.BuyItemController">
+   <children>
+      <Button layoutX="32.0" layoutY="304.0" mnemonicParsing="false" onAction="#EnterItem" prefHeight="39.0" prefWidth="107.0" text="Enter Item">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="226.0" layoutY="304.0" mnemonicParsing="false" onAction="#EndSale" prefHeight="39.0" prefWidth="119.0" text="End Sale">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="410.0" layoutY="304.0" mnemonicParsing="false" onAction="#EnterTendered" prefHeight="39.0" prefWidth="144.0" text="Make Payment">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <TextField fx:id="upc" layoutX="107.0" layoutY="22.0" prefHeight="39.0" prefWidth="119.0" />
+      <TextField fx:id="price" layoutX="107.0" layoutY="90.0" prefHeight="39.0" prefWidth="119.0" />
+      <TextField fx:id="total" layoutX="107.0" layoutY="169.0" prefHeight="39.0" prefWidth="119.0" />
+      <TextField fx:id="tendered" layoutX="107.0" layoutY="236.0" prefHeight="39.0" prefWidth="119.0" />
+      <TextField fx:id="quantity" layoutX="365.0" layoutY="22.0" prefHeight="39.0" prefWidth="107.0" />
+      <TextField fx:id="desc" layoutX="365.0" layoutY="90.0" prefHeight="39.0" prefWidth="201.0" />
+      <TextField fx:id="balance" layoutX="365.0" layoutY="169.0" prefHeight="39.0" prefWidth="107.0" />
+      <Text layoutX="6.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UPC" wrappingWidth="70.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="6.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" wrappingWidth="70.13672092832894">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="6.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tendered" wrappingWidth="107.19999802522761">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="266.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="266.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desc">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="266.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance" wrappingWidth="83.79297397322989">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
